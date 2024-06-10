@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>As Flores de Teyvat</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Sedan+SC&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <h1>Teyvat Main Flowers</h1>
+    </header>
+    <main class="flores-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img class="imagem-seta" src="./src/imagens/seta-icons8.png"
+                alt="ícone de seta para voltar com gradiente de cores">
+        </button>
+
+        <ul class="lista-flores">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">Lírio de Vidro</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/lirio-de-vidro.webp"
+                        alt="flor lírio de vidro de genshin impact">
+                </div>
+                <div class="descricao">
+                    <h3 class="regiao">Região: Liyue</h3>
+                    <p class="texto">
+                        Uma flor extremamente antiga. Ela cobria toda a terra de Liyue e transformava as lembranças da
+                        terra em fragrâncias quando desabrochava. Dizem que costumava desabrochar com o som de uma bela
+                        canção, e que
+                        era a flor favorita de uma certa pessoa. Mas agora é difícil encontrar o Lírio de Vidro
+                        desabrochando na natureza.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <h2 class="nome">Dendróbio</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/dendrobio.webp" alt="flor dendróbio de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Inazuma</h3>
+                    <p class="texto">
+                        Uma planta vibrante que também foi nomeada "lycoris" pelos poetas. Pensava-se que estava extinta
+                        no arquipélago de Inazuma, mas reapareceu agora em seus campos de batalha. Dizem que seu
+                        florescimento mais encantador ocorre onde muito sangue foi derramado.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <h2 class="nome">Flor Doce</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/flor-doce.webp" alt="flor doce de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Quase todo o mundo de Teyvat</h3>
+                    <p class="texto">
+                        Flores particularmente perfumadas. Elas podem ser facilmente localizadas, mesmo no escuro,
+                        graças ao seu cheiro doce. Comumente usadas em Teyvat para fazer açúcar.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <h2 class="nome">Flor de Seda</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/flor-de-seda.webp" alt="flor de seda de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Liyue</h3>
+                    <p class="texto">
+                        Uma flor carmesim que floresce como as nuvens do arco-íris em Liyue. Ela pode ser transformada
+                        em um tecido sedoso e suave. Diz a lenda que a Guilda de Comerciantes de Feiyun tem um berçário secreto de
+                        flores de seda em algum lugar do continente. Ninguém no setor pode rivalizar com seu rendimento
+                        e textura.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-5">
+                <h2 class="nome">Flor da Neblina</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/flor-da-neblina.webp"
+                        alt="flor da neblina de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Mondstadt</h3>
+                    <p class="texto">
+                        Um broto de uma flor envolto em gelo sólido. Mesmo após ser colhida, a flor continua emitindo
+                        frio. Uma obra popular de ficção conta que uma raposa ficou presa no gelo de uma Flor da Neblina
+                        e não conseguiu se livrar dela. Para criaturas pequenas com força limitada, ela é de fato uma
+                        planta muito perigosa.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-6">
+                <h2 class="nome">Lótus Nilotpala</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/lotus-nilotpala.webp"
+                        alt="lótus nilotpala de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Sumeru</h3>
+                    <p class="texto">
+                        Crescendo nos pântanos da floresta e de florescimento noturno, com flores que emitem um brilho
+                        tão forte quanto a da lua.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-7">
+                <h2 class="nome">Violeta</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/violeta.webp"
+                        alt="flor violeta de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Liyue</h3>
+                    <p class="texto">
+                        Uma flor pequena com forte vitalidade. Dizia-se que sua flor que desce para baixo
+                        evita que sua fragrância se dissipe. Geralmente pode ser encontrada nas encostas das montanhas.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-8">
+                <h2 class="nome">Flor do Luto</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/flor-do-luto.webp" alt="flor do luto de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Sumeru</h3>
+                    <p class="texto">
+                        Flores carmesim capazes de florescer até mesmo nos antigos campos de batalha e nas profundezas
+                        do deserto. Suas pétalas, aparentemente murchas, parecem estar de luto pelos heróis do passado
+                        distante.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-9">
+                <h2 class="nome">Rosa de Sumeru</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/rosa-de-sumeru.webp"
+                        alt="rosa de sumeru de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Sumeru</h3>
+                    <p class="texto">
+                        Flor roxa escura e exuberante, exala uma fragrância agradável que faz qualquer pessoa querer
+                        parar para sentir o seu aroma. Embora alguns gostem de chamá-la de um tipo de "rosa-dos-campos",
+                        a sua relativa ausência de flores múltiplas demonstra que se enquadra numa classificação floral
+                        diferente.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-10">
+                <h2 class="nome">Lótus de Leite</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/lotus-de-leite.webp"
+                        alt="lótus de leite de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Mondstadt</h3>
+                    <p class="texto">
+                        Uma flor que cresce perto de fontes de água. Suas pétalas, quando cozidas, possuem textura
+                        crocante, com um pouco do doce e do azedo.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-11">
+                <h2 class="nome">Flor Rociomarinha</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/flor-rociomarinha.webp"
+                        alt="flor rociomarinha de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Fontaine</h3>
+                    <p class="texto">
+                        Uma flor azul elegante e etérea. Suas pétalas macias são elásticas e absorvem água, tornando-a o
+                        material ideal para vários usos diários. Dizem que a Flor Rociomarinha representa a lealdade e
+                        os juramentos inabaláveis.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-12">
+                <h2 class="nome">Qingxin</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/qingxin.webp" alt="flor qingxin de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Liyue</h3>
+                    <p class="texto">
+                        Uma flor branca translúcida que cresce apenas em picos de pedra mais altos. Recusa a oferta do
+                        calor e da umidade das planícies para contemplar ao longe, dos picos das montanhas solitárias.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-13">
+                <h2 class="nome">Lótus Kalpalata</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/lotus-kalpalata.webp"
+                        alt="lótus kalpalata de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Sumeru</h3>
+                    <p class="texto">
+                        Flor de videiras que crescem no topo das falésias das montanhas. É chamada de lótus apenas por
+                        causa de sua aparência, mas o fato é que as duas não têm relação entre si.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-14">
+                <h2 class="nome">Crânio de Dragão</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/cranio-de-dragao.webp"
+                        alt="flor crânio do dragão de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Mondstadt e Liyue</h3>
+                    <p class="texto">
+                        Pode ser consumido após cozinhar. Como um condimento, pode trazer grande destaque de sabores aos
+                        pratos.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-15">
+                <h2 class="nome">Lâmpada de Grama</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/lampada-de-grama.webp"
+                        alt="flor lâmpada de grama de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Mondstadt</h3>
+                    <p class="texto">
+                        Uma flor selvagem que emite luz durante a noite. Usada na culinária para realçar outros sabores.
+                        Assim como a fragrância sutil das flores silvestres não distrairá uma pessoa concentrada, o
+                        delicado brilho da Lâmpada de Grama também não irá atrair sua atenção, mesmo durante à noite.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-16">
+                <h2 class="nome">Rosa Arco-Íris</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/rosa-arco-iris.webp"
+                        alt="rosa arco-íris de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Fontaine</h3>
+                    <p class="texto">
+                        Uma flor cor de rosa suave e delicada. Apesar do nome, Rosas Arco-Íris são mais próximas a
+                        Lírios. Essa
+                        flor foi extinta e quando a era chegou a um fim caótico, uma planta que costumava crescer
+                        simbioticamente com ela roubou o nome de "Rosa Arco-Íris".
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-17">
+                <h2 class="nome">Cecília</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/cecilia.webp" alt="flor cecília de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Mondstadt</h3>
+                    <p class="texto">
+                        Uma flor bonita com nome adequeado a sua aparência. Cresce apenas em locais com ventos fortes.
+                        Muito difícil de ser encontrada.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-18">
+                <h2 class="nome">Flor da Luz do Lago</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/flor-da-luz-do-lago.webp"
+                        alt="flor da luz do lago de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Fontaine</h3>
+                    <p class="texto">
+                        Uma flor clara verde, ela nasce onde veios d'água se juntam. Tem uma fragrância simples,
+                        refrescante e elegante, mas também gentil. Na língua das flores, significa "esperar" e "promessa
+                        eterna".
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-19">
+                <h2 class="nome">Margaridas Voadoras</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/margaridas-voadoras.webp"
+                        alt="margaridas voadoras de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Mondstadt</h3>
+                    <p class="texto">
+                        Uma planta que adora o vento. Para os filhos orgulhosos do vento, ou os habitantes de Mondstadt,
+                        as Margaridas Voadoras são os "ventos visíveis".
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-20">
+                <h2 class="nome">Padisarah</h2>
+                <div class="container-imagem">
+                    <img class="imagem-flor" src="./src/imagens/padisarah.webp"
+                        alt="flor paradisarah de genshin impact">
+                </div>
+
+                <div class="descricao">
+                    <h3 class="regiao">Região: Sumeru</h3>
+                    <p class="texto">
+                        Uma flor nobre, é muito exigente em relação ao ambiente de crescimento. Os estames podem ser
+                        usados para fazer especiarias preciosas.
+                    </p>
+                </div>
+            </li>
+        </ul>
+        <button class="btn-seta btn-avancar" id="btn-avancar">
+            <img src="./src/imagens/seta-avancar-icons8.png" alt="ícone de seta para avançar com gradiente de cores">
+        </button>
+        </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
